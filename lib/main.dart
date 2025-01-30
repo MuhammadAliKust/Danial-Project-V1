@@ -1,4 +1,5 @@
 import 'package:danial_project/bottom_bar.dart';
+import 'package:danial_project/tabbar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BottomBarDemo(),
+      home: TabbarViewDemo(),
     );
   }
 }
